@@ -1,6 +1,4 @@
-# Celestial Models
+# OpenGL Gallery
 
 ## Description
-Grand thought the title may sound, it is but a collection of 3D models  
-of stuff like the solar system and the earth-moon system, rendered using  
-OpenGL.
+A collection of stuff I rendered using OpenGL.
