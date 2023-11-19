@@ -20,7 +20,7 @@ void handle_keyboard(unsigned char key, int x, int y) {
 
 void setup_context() {
     glClearColor(0.09f, 0.09f, 0.09f, 1.0f);
-    glEnable(GL_LINE_SMOOTH | GL_POLYGON_SMOOTH);
+    glEnable(GL_LINE_SMOOTH | GL_POLYGON_SMOOTH | GL_DEPTH_TEST);
 }
 
 int main(int argc, char **argv) {
