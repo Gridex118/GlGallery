@@ -24,8 +24,8 @@ void draw_pyramid(GLdouble rX, GLdouble rY, GLdouble rZ) {
     glBegin(GL_TRIANGLES);
         glColor3f(0.0f, 1.0f, 0.0f);
             glVertex3f(0.0f, 0.0f, -50.0f);
-            glVertex3f(50.0f, 0.0f, 50.0f);
             glVertex3f(-50.0f, 0.0f, 50.0f);
+            glVertex3f(50.0f, 0.0f, 50.0f);
     glEnd();
     glBegin(GL_TRIANGLES);
         glColor3f(0.0f, 0.8f, 0.0f);
@@ -36,14 +36,14 @@ void draw_pyramid(GLdouble rX, GLdouble rY, GLdouble rZ) {
     glBegin(GL_TRIANGLES);
         glColor3f(0.0f, 0.6f, 0.0f);
             glVertex3f(0.0f, 0.0f, -50.0f);
-            glVertex3f(0.0f, 50.0f, 0.0f);
             glVertex3f(-50.0f, 0.0f, 50.0f);
+            glVertex3f(0.0f, 50.0f, 0.0f);
     glEnd();
     glBegin(GL_TRIANGLES);
         glColor3f(0.0f, 0.4f, 0.0f);
             glVertex3f(0.0f, 50.0f, 0.0f);
-            glVertex3f(50.0f, 0.0f, 50.0f);
             glVertex3f(-50.0f, 0.0f, 50.0f);
+            glVertex3f(50.0f, 0.0f, 50.0f);
     glEnd();
 
     glutSwapBuffers();
